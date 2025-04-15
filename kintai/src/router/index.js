@@ -1,18 +1,18 @@
 import { createRouter, createWebHistory } from "vue-router";
 
-import pageA from "@/test/pageA.vue";
-import pageB from "@/test/pageB.vue";
+import kintai from "@/components/kintai.vue";
+import profile from "@/components/profile.vue";
 
 const routes = [
     {
-        path: '/pageA',
-        name: 'pageA',
-        component: pageA,
+        path: '/profile',
+        name: 'profile',
+        component: profile,
     },
     {
-        path: '/pageB',
-        name: 'pageB',
-        component: pageB,
+        path: '/kintai',
+        name: 'kintai',
+        component: kintai,
     },
 ]
 
