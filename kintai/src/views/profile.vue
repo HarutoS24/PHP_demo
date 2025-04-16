@@ -7,16 +7,21 @@
       <el-aside width="200px">
         <el-avatar :size="200" :src="'https://fuss10.elemecdn.com/e/5d/4a731a90594a4af544c0c25941171jpeg.jpeg'" />
       </el-aside>
-      <el-main style="font">
-        テスト
-      </el-main>
+      <el-container>
+        <el-header>
+          HARUTO SATO
+        </el-header>
+        <el-main style="font">
+          今まで趣味の範囲でプログラムを書くことが多かったのですが、最近は企業で仕事としてプログラミングをしたりしています！
+        </el-main>
+      </el-container>
     </el-container>
   </el-card>
   <el-card>
     経歴
   </el-card>
   <el-card>
-    Skills
+    資格
   </el-card>
 </template>
 
@@ -28,10 +33,6 @@ export default {
 
 <style scoped>
 .el-card {
-  margin-top: 30px
-}
-
-.template {
-  background-color: black;
+  margin: 30px 0;
 }
 </style>
