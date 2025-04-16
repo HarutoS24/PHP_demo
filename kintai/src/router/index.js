@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from "vue-router";
 
-import kintai from "@/components/kintai.vue";
-import profile from "@/components/profile.vue";
+import kintai from "@/views/kintai.vue";
+import profile from "@/views/profile.vue";
 
 const routes = [
     {
