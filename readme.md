@@ -13,7 +13,7 @@ MacBook Pro 14インチ 2023年モデル上でxampp8.2.4を用いて動かした
 **************************
 使用したパッケージ・ライブラリ等
 **************************
-codeigniter 3.1.0
+codeigniter@3.1.0
 element-plus/icons-vue@2.3.1
 vitejs/plugin-vue@5.2.3
 axios@1.8.4
@@ -21,3 +21,10 @@ element-plus@2.9.7
 vite-plugin-vue-devtools@7.7.2
 vite@6.2.6
 vue@3.5.13
+
+**************************
+資料動画
+**************************
+
+https://github.com/user-attachments/assets/3b52c59b-9ff1-4116-b7ba-53860372a34e
+
