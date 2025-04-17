@@ -54,3 +54,20 @@ export default {
   color: black;
 }
 </style>
+
+<style>
+.el-drawer__header {
+  margin: 0 !important;
+}
+
+.el-card {
+  margin: 50px 200px !important;
+  border-radius: 30px !important;
+}
+
+.el-card .el-header {
+  font-weight: bold;
+  font-size: 1.3rem;
+  color: darkcyan;
+}
+</style>
