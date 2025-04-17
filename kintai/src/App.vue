@@ -23,7 +23,25 @@
 import { ref } from "vue"
 import User_card from "./components/user_card.vue"
 
-const drawer = ref(false)
+</script>
+<script>
+export default {
+  name: 'app',
+  data() {
+    return {
+      drawer: true,
+    }
+  },
+  methods: {
+    drawer_expand() {
+      this.drawer = true
+    },
+    drawer_shrink() {
+      this.drawer = false
+    }
+  }
+}
+
 </script>
 
 <style scoped>
