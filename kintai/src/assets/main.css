@@ -1,0 +1,15 @@
+@import './base.css';
+
+body {
+  background-color: rgb(244, 237, 236);
+  font-weight: bold;
+  color: black;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+  padding: 3px;
+}
