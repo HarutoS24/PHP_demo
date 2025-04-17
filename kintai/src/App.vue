@@ -1,6 +1,6 @@
 <template>
-  <el-menu :router="true" mode="horizontal" :default-active="activeIndex">
-    <el-menu-item id="drawer-button" @click="drawer = true">
+  <el-menu :router="true" mode="horizontal">
+    <el-menu-item id="drawer-button" @click="drawer_expand">
       <el-icon>
         <More />
       </el-icon>
@@ -8,9 +8,10 @@
     <User_card />
   </el-menu>
   <el-drawer v-model="drawer" title="項目一覧" direction="ltr">
-    <el-menu :router="true" mode="vertical" :default-active="1">
-      <el-menu-item index="1" :route="{ name: 'profile' }" @click="drawer = false">Profile</el-menu-item>
-      <el-menu-item index="2" :route="{ name: 'kintai' }" @click="drawer = false">勤怠</el-menu-item>
+    <el-menu :router="true" mode="vertical">
+      <el-menu-item index="1" :route="{ name: 'profile' }" @click="drawer_shrink">Profile</el-menu-item>
+      <el-menu-item index="2" :route="{ name: 'kintai_calendar' }" @click="drawer_shrink">勤怠カレンダー</el-menu-item>
+      <el-menu-item index="3" :route="{ name: 'kintai_register' }" @click="drawer_shrink">勤怠登録</el-menu-item>
     </el-menu>
   </el-drawer>
   <router-view />
